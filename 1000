@@ -1,0 +1,5 @@
+A, B = input().split()
+print(int(A)+int(B))
+
+#1000번 A+B
+#input()함수로 입력받고 split()함수로 나누어 A, B 변수에 저장
