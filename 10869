@@ -1,0 +1,11 @@
+A, B=input().split()
+A = int(A)
+B = int(B)
+print(int(A)+int(B))
+print(int(A)-int(B))
+print(int(A)*int(B))
+print(int(A/B))
+print(A%B)
+
+#10869번 사칙연산
+#몫은 /, 나버지는 % 기호 사용
