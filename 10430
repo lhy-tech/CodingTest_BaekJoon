@@ -1,0 +1,20 @@
+#1차 답안
+A,B,C=input().split()
+A=int(A)
+B=int(B)
+C=int(C)
+A1=(A+B)%C
+B1=((A%C)+(B%C))%C
+C1=(A*B)%C
+D1=((A%C)*(B%C))%C
+print(A1)
+print(B1)
+print(C1)
+print(D1)
+
+#2차 답안
+A,B,C = map(int,input().split())
+print((A+B)%C, ((A%C)+(B%C))%C, (A*B)%C, ((A%C)*(B%C))%C, sep='\n')
+
+#map 함수의 첫 번째 매개변수로는 함수가 오고 두 번째 매개변수로는 반복 가능한 자료형(리스트, 튜플 등)이 옵니다.
+#sep='\n'로 줄바꿈
