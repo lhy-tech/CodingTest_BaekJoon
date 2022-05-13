@@ -1,0 +1,12 @@
+A,B = map(int,input().split())
+
+if A > B:
+    print('>')
+elif A < B:
+    print('<')
+else:
+    print('==')
+
+#조건식 첫 문제
+#map 함수를 잘 활용하자
+#조건식에서 바로 다음 식으로 넘어갈 땐 Shift+Enter 누르기
