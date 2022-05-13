@@ -1,0 +1,10 @@
+A = int(input())
+B = input()
+
+print(A*int(B[2]))
+print(A*int(B[1]))
+print(A*int(B[0]))
+print(A*int(B))
+
+#input()으로 넣었을 때 문자열 취급, 1자리씩 끊을 수 있다. 
+#print()안에 수식 그대로 넣을 수도 있지만 이름을 정의해서 넣은다음 print 한줄에 다 쓰고 sep으로 줄바꿈하면 깔끔하다. (print는 한줄만 쓰는게 좋은가?)
